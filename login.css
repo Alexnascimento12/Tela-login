@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url("https://dtpr0iglcwflm.cloudfront.net/profissoes/wp-content/uploads/2022/11/profissoes-de-programacao-1600x900.jpg")
+}
+
+
+.caixalogin {
+
+    background-color: #000000;
+    width: 95%;
+    max-width: 420px;
+    /*largura */
+    height: 300px;
+    opacity: 0.8;
+    padding: 40px;
+    border-radius: 25px;
+    border: 4px solid #7c7c7c2b;
+    justify-content: center;
+    height: 60vh;
+    width: 50vw;
+    align-items: center;
+}
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    aling: center;
+    align-items: center;
+    position: relative;
+    top: 120px;
+    z-index: 1;
+    animation: controllerAnimation 4s infinite alternate ease-in-out;
+}
+
+.h1 {
+    margin-bottom: 10px;
+    margin-top: 120px;
+    color: white
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 100px);
+
+}
+
+.login {
+    color: white
+}
+
+label {
+    color: white
+}
+
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    color: white;
+    background-color: #7c7c7c2b
+}
